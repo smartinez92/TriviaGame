@@ -1,65 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="eng">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
-	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/darkly/bootstrap.min.css" rel="stylesheet" integrity="sha384-kVo/Eh0sv7ZdiwZK32nRsp1FrDT3sLRLx3zVpSSTI9UdO5H02LJNLBg5F1gwvKg0" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-	<title>TRIVIA!</title>
+  <title>Nintendo Trivia</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
-	<audio autoplay>
-	  <source src="assets/sounds/pushing_onwards.mp3" type="audio/mpeg">
-	</audio>
-
-	<div class="container">
-
-		<!-- Body for content -->
-		<div class="jumbotron">
-		
-			<!-- Header, stays throughout game -->
-			<div class="row">
-				<div class="header col-md-10" style="float: none; margin: 0 auto;">
-					<h1>galactic trivia</h1>
-				</div>
-			</div>
-
-			<!-- Start button -->
-			<button class="start">begin, mortal!</button>
-
-			<!-- Answers for questions -->
-			<div class="row guesses hide">
-					<a href="#" class="col-md-2 answer btn btn-primary">Answer #1</a>
-					<a href="#" class="col-md-2 answer btn btn-success">Answer #2</a>
-					<a href="#" class="col-md-2 answer btn btn-info">Answer #3</a>
-					<a href="#" class="col-md-2 answer btn btn-warning">Answer #4</a>
-			</div>
-
-			<!-- Questions space -->
-			<div class="questDiv hide">
-				
-			</div>
-
-			<!-- Countdown timer -->
-			<div class="row">
-				<div class="timer col-md-2 hide" style="margin: 0 8%;">
-					<h3>YOUR DOOM IN:</h3>
-				</div>
-			</div>
-
-			<!-- Flavor text -->
-			<div class="row">
-				<div class="paragraph col-md-10 hide" style="float: none; margin: 0 auto;">
-					<P>"Think you know more than an intergalactic being? Puny human, we shall test your might in a trvia game...about space!"</P>
-				</div>
-			</div>
-		</div>
-	</div>
-	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
-	<script src="assets/javascript/app.js"></script>
+  <div id="wrapper">
+    <h1>Nintendo Trivia Game!</h1>
+    <div id="subwrapper">
+      <div id="quiz-area">
+        <button id="start">Start</button>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
 </html>
